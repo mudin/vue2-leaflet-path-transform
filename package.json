@@ -29,8 +29,8 @@
     "vue2-leaflet": "^2.0.2"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.0",
     "vue-cli": "~2.8.2",
+    "webpack": "^3.11.0",
     "webpack-node-externals": "^1.5.4"
   }
 }

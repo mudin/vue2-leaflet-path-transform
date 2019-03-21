@@ -16,18 +16,19 @@
     </v-path-transform>
   </v-map>
 </template>
-
 <script>
-// import L from 'leaflet';
-import * as Vue2Leaflet from 'vue2-leaflet';
-import Vue2LeafletPathTransform from './Vue2LeafletPathTransform';
+import L from 'leaflet';
+import {
+  LMap, LMarker, LTileLayer, LIconDefault,
+} from 'vue2-leaflet';
+import Vue2LeafletPathTransform from './dist/Vue2LeafletPathTransform.js';
 
 export default {
   components: {
-    'v-map': Vue2Leaflet.LMap,
-    'v-tilelayer': Vue2Leaflet.LTileLayer,
-    'v-icondefault': Vue2Leaflet.LIconDefault,
-    'v-marker': Vue2Leaflet.LMarker,
+    'v-map': LMap,
+    'v-tilelayer': LTileLayer,
+    'v-icondefault': LIconDefault,
+    'v-marker': LMarker,
     'v-path-transform': Vue2LeafletPathTransform
   },
   methods: {
