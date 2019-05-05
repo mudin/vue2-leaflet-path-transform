@@ -1,6 +1,6 @@
 {
   "name": "vue2-leaflet-path-transform",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "path-transform plugin extension for vue2-leaflet package",
   "main": "dist/Vue2LeafletPathTransform.js",
   "scripts": {
@@ -26,10 +26,10 @@
   "dependencies": {
     "leaflet": "^1.4.0",
     "leaflet-path-transform": "^1.1.1",
-    "vue2-leaflet": "^2.0.2"
+    "vue2-leaflet": "^2.1.1"
   },
   "devDependencies": {
-    "vue-cli": "~2.8.2",
+    "vue-cli": "^2.8.2",
     "webpack": "^3.11.0",
     "webpack-node-externals": "^1.5.4"
   }
