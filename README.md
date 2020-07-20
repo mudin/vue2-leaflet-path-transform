@@ -8,7 +8,7 @@ This is a [path-transform plugin](https://www.npmjs.com/package/leaflet-path-tra
 
 ## Demo
 
-    git clone https://github.com/imudin/vue2-leaflet-path-transform
+    git clone https://github.com/mudin/vue2-leaflet-path-transform
     cd vue2-leaflet-path-transform
     yarn
     yarn example
