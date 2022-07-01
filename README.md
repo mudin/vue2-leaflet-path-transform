@@ -37,6 +37,7 @@ something like this
             :draggable='true'
             :rotation='true'
             :scaling='true'
+            :uniformScaling='true'
             :color='colors[index]'
             :handlerOptions="handlerOptions"
             @transformed='handlePathTransformed'>

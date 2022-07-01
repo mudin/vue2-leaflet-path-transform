@@ -116,6 +116,11 @@ const props = {
     custom: true,
     default: true
   },
+  uniformScaling: {
+    type: Boolean,
+    custom: true,
+    default: true
+  },
   options: {
     type: Object,
     default: () => ({
@@ -168,6 +173,7 @@ export default {
     this.mapObject.transform.setOptions({
       rotation: this.rotation,
       scaling: this.scaling,
+      uniformScaling: this.uniformScaling,
       handlerOptions: this.handlerOptions
     }).enable();
 
